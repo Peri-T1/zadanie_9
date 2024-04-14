@@ -14,11 +14,11 @@ var mobileMenuClose = document.querySelector(".mobileMenuClose");
   
 
 mobileMenu.addEventListener("click", function () {
-    // var menu = document.createElement("div");
-    // menu.innerText = "text"
-    // mobileMenuOpened.append(menu);
-    // mobileMenuOpened.classList.contains("visible")
-    // mobileMenuOpened.classList.add("visible");
+    var menu = document.createElement("div");
+    menu.innerText = "text"
+    mobileMenuOpened.append(menu);
+    mobileMenuOpened.classList.contains("visible")
+    mobileMenuOpened.classList.add("visible");
     mobileMenuOpened.classList.add("visible");
     document.body.classList.add("overflowHidden");
     
@@ -28,3 +28,12 @@ mobileMenuClose.addEventListener("click", function(){
     mobileMenuOpened.classList.remove("visible");
     document.body.classList.remove("overflowHidden");
 })
+
+
+// var services = [1, 2, 3, 4];
+// services.forEach(function(item){
+// var block = document.createElement("div");
+// block.innerText = item;
+// block.classList.add("card");
+// services.append(block);
+// })

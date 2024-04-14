@@ -662,33 +662,29 @@ margin-top: 60px;
 
 
 
-
-
-
-@media (max-width: 750px) {
+@media (max-width: 1050px) {
     .container{
         padding: 0 15px;
         width: unset;
+        
     }
-    .container {
+    /* .container {
         display: grid;
         grid-gap: 5px;
         grid-template-columns: repeat(auto-fit, 100px);
         grid-template-rows: repeat(2, 100px);
         
         
-    }
+    } */
     .navbar {
         display: none;
     }
     .contacts{
-        display: none;
+        display: block;
     }
 
      .display1 p{flex-direction: column;}
-    .display2 p{
-        flex-direction: column;
-    }
+    .display2 p{flex-direction: column;}
     .btn{
         flex-direction: column;
     } 
@@ -710,14 +706,99 @@ margin-top: 60px;
     .servicesMore{flex-direction: column;}
     .carousel{flex-direction: column;}
     .card{flex-direction: column;}
-    .test{flex-direction: column;}
+    .test0{flex-direction: column;}
     .headerWrapper{
         padding: 8px 0;
     }
+    .carousel{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .cardBtn{ flex-direction: column;}
+    .card{flex-direction: column;}
     .test{flex-direction: column;}
     .test1{flex-direction: column;}
+    .clients{
+        flex-direction: column;
+    }
+    .figure{flex-direction: column;}
     .mobileMenu{
         display: block;
     }
     .testImg{flex-direction: column;}
+    .testCarousel{flex-direction: column;}
 }
+
+
+@media (max-width: 750px) {
+    .container{
+        padding: 0 15px;
+        width: unset;
+        
+    }
+    /* .container {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit, 100px);
+        grid-template-rows: repeat(2, 100px);
+        
+        
+    } */
+    .navbar {
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+
+     .display1 p{flex-direction: column;}
+    .display2 p{flex-direction: column;}
+    .btn{
+        flex-direction: column;
+    } 
+.values{
+    flex-direction: column;
+}
+.icon-boxes{
+    flex-direction: column;
+    align-items: center;
+}
+
+    .formData{
+        flex-direction:column;
+    
+    }
+    .servicesItems{
+          flex-direction: column;
+    }
+    .servicesMore{flex-direction: column;}
+    .carousel{flex-direction: column;}
+    .card{flex-direction: column;}
+    .test0{flex-direction: column;}
+    .headerWrapper{
+        padding: 8px 0;
+    }
+    .carousel{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .cardBtn{ flex-direction: column;}
+    .card{flex-direction: column;}
+    .test{flex-direction: column;}
+    .test1{flex-direction: column;}
+    .clients{
+        flex-direction: column;
+    }
+    .figure{flex-direction: column;}
+    .mobileMenu{
+        display: block;
+    }
+    .testImg{flex-direction: column;}
+    .testCarousel{flex-direction: column;}
+}
+
+
